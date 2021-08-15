@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 60px;
+    margin-right: 60px; 
+}
+
+
+@media screen and (max-width: 780px) {
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #051333;
+    font-size: 0.7em;
+}
+
+
+section {
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header nav ul li {
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.hero {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.padreGrid {
+display: grid;
+grid-template-rows: 780px; 
+grid-row-gap: 5px;
+grid-template-areas:
+     "texto" 
+     "imgUno"
+     "imgDos";
+
+}
+}
+.logoUno {
+    width: 240px;
+    display: inline-block;
+    float: left;
+    
+}
+}
+.pestañasMenu {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+}
+li {
+
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #051333; 
+    
+}
+a:hover {
+    padding: 15px;
+    border-radius: 5px; 
+    color: #3AED6C;
+    font-size: 20px;
+    font-style: bold; 
+    font-family: 'Ubuntu', sans-serif;
+}
+ul {
+    list-style-type: none; 
+}
+header {
+    height: 150px; 
+    box-shadow: -1px 4px 6px -6px #051333;
+    background-color: white; 
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1 {
+    color: #051333;   
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+h4 {
+    color: #3AED6C;
+    font-family: 'Roboto', sans-serif;
+}
+.hero {
+    text-align: center;
+}
+.hero h1 {
+    animation-duration: 1.6s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+   0% {
+opacity: 0; }
+   100% {
+     opacity: 1;
+} }
+.creemosQueMereces {
+    color: lightgray;
+    transform: translate(0px, 10px);
+}
+.hero button {
+    transform: translate(0px, 20px);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #3AED6C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: height 0.8s, width 0.8s;
+}
+.hero button:hover {
+    height: 40px; width: 110px;
+}
+p {
+    color: darkgray;
+    font-family: 'Roboto', sans-serif;
+}
+.bajadaVideo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 20px;
+}
+video {
+    width: 800px;
+    height: 400px;
+    align: center;
+    border-radius: 20px 140px 20px 140px;
+}
+.padreGrid {
+display: grid;
+grid-template-columns: 575px 480px; 
+grid-row-gap: 180px;
+grid-template-areas:
+     "texto imgUno"
+     "imgDos imgUno";
+
+}
+.padreGrid .descripcionDesite {
+   grid-area: texto;
+   justify-self: start;
+}
+.padreGrid #imgagenColDos {
+   grid-area: imgUno;
+   justify-self: end;
+   align-self: end;
+}
+.padreGrid .imagenesDesite{
+    display: inline-block;
+    grid-area: imgDos;
+    align-self: start;
+}
+}
+.primeraImagen {
+    align: center;
+    width: 580px;
+}
+.segundaImagen {
+    width: 470px;
+    align: center;
+}
+.padre-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.hijo-flex {
+   flex-basis: 600px;
+   flex: 1;
+}
+
+.hijo-flex img {
+   animation-duration: 1.8s;
+   animation-name: aparecer;
+}
+@keyframes aparecer {
+   0% {
+opacity: 0; }
+   100% {
+     opacity: 1;
+} }
+
+.paddingBottomTextosServicios {
+    padding-bottom: 270px;
+}
+.servicioUno {
+    border-radius: 140px 10px 10px 10px;
+}
+.servicioDos {
+    border-radius: 10px 10px 10px 10px;
+}
+.servicioTres {
+    border-radius: 10px 10px 10px 10px;
+}
+.servicioCuatro {
+    border-radius: 10px 10px 140px 10px;
+}
+.contactanos {
+    color: #6086EA;
+    font-size: 20px;
+}
+input {
+    font-family: 'Roboto', sans-serif;
+    width: 340px;
+    border-radius: 10px;
+    opacity: 60%; 
+}
+.consulta {
+  font-family: 'Ubuntu', sans-serif;  
+  color: #6086EA;
+  padding-top: 50px;
+}
+#textarea {
+border: 1,5px solid lightgray;
+border-radius: 20px;
+opacity: 60%;
+}
+button {
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.gradiente {
+ background-image: linear-gradient(to top, #6086EA , white, white);
+ height: 480px;
+}
+hr {
+    opacity: 40%;
+}
+
+footer div img {
+    height: 30px;
+}
+.btn-group-vertical {
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+#linkedin {
+    height: 25px;
+    margin-bottom: 3px;
+}
+#logoEnFooter {
+    height: 180px;
+    margin-left: 130px;
+}

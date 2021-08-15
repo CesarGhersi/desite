@@ -1,0 +1,60 @@
+@import "coloresytipos";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+.padreGrid {
+    display: grid;
+    grid-template-rows: 780px; 
+    grid-row-gap: 5px;
+    grid-template-areas:
+         "texto" 
+         "imgUno"
+         "imgDos";
+    
+    }
+*/
+
+
+
+
+/* 
+   
+    <section class="padreGrid">
+        <div class="descripcionDesite">
+            <p>Lorem ipsum dolor <strong>sit amet consectetur </strong>adipisicing elit. Recusandae ad accusamus aspernatur totam corrupti nihil minus dolorem tempore dolor, nulla corporis voluptatem et labore quae veritatis quasi exercitationem, numquam esse accusantium? Tempora totam illum sed saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad accusamus aspernatur totam corrupti nihil minus dolorem tempore dolor. </p>
+        </div>
+        <div id="imagenColDos">
+            <img src= "multimedia/UX-UI-Desite.jpg" class="segundaImagen" alt="Diseño UX/UI">
+        </div>
+        <div class="imagenesDesite">
+            <img src= "multimedia/Key-visual-Desite.jpg" class="primeraImagen" alt="Desarrollo web">
+        </div>
+     </section>
+    
+*/
+
+
+
+.tabla-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    table {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10px;
+        padding: 5px;
+        tr {
+            th {
+                background-color: $primaryColor;
+                font-family: $tipografiaTitulos; 
+                margin: 5px;
+            }    
+        }
+    }
+}
