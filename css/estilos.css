@@ -8,7 +8,13 @@ body {
     margin-right: 60px; 
 }
 
-
+@media screen and (max-width: 400px) {
+    video {
+        width: 400px;
+        height: 200px;
+        border-radius: 10px 70px 10px 70px;
+    }
+}
 @media screen and (max-width: 780px) {
 a {
     font-family: 'Roboto', sans-serif;
@@ -122,7 +128,7 @@ opacity: 0; }
     height: 30px;
     border-radius: 15px;
     background-color: #3AED6C;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     transition: height 0.8s, width 0.8s;
 }
@@ -238,20 +244,12 @@ border-radius: 20px;
 opacity: 60%;
 }
 button {
-    text-transform: uppercase;
     margin-bottom: 9px;
     border-radius: 15px;
-    width: 100px;
+    width: 150px;
     height: 30px;
-    font-family: 'Roboto', sans-serif;
-
-}
-.gradiente {
- background-image: linear-gradient(to top, #6086EA , white, white);
- height: 480px;
-}
-hr {
-    opacity: 40%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #3AED6C;
 }
 
 footer div img {
@@ -261,7 +259,9 @@ footer div img {
     margin-left: 130px;
     margin-top: 25px;
 }
-
+.redesSociales:hover {
+    opacity: 70%;
+}
 #linkedin {
     height: 25px;
     margin-bottom: 3px;
