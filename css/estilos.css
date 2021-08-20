@@ -32,7 +32,6 @@ section {
 header nav ul li {
     display: inline-block;
     overflow: hidden;
-    float: right;
     margin-top: 5px;
     margin-left: 20px;
 }
@@ -55,8 +54,6 @@ grid-template-areas:
     width: 240px;
     display: inline-block;
     float: left;
-    
-}
 }
 .pestañasMenu {
     font-family: 'Roboto', sans-serif;
@@ -175,14 +172,11 @@ grid-template-areas:
     grid-area: imgDos;
     align-self: start;
 }
-}
 .primeraImagen {
-    align: center;
     width: 580px;
 }
 .segundaImagen {
     width: 470px;
-    align: center;
 }
 .padre-flex {
   display: flex;
